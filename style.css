@@ -68,5 +68,15 @@ body {
     background: white;
     color: rgb(153, 163, 173);
     opacity: 1.0;
+    cursor: pointer;
+}
+
+.active{
+    background: black;
+}
+
+.active:hover{
+    background: black;
+    opacity: 0.8;
     cursor: default;
 }
