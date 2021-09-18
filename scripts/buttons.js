@@ -12,13 +12,13 @@ let quizBtn = document.getElementById("quizBtn");
 
 
 // -- Add Event Listeners --
-if(homeBtn != null){
+if (homeBtn != null) {
     homeBtn.addEventListener("click", gotoHome);
 }
-if(aboutBtn != null){
+if (aboutBtn != null) {
     aboutBtn.addEventListener("click", gotoAbout);
 }
-if(quizBtn != null){
+if (quizBtn != null) {
     quizBtn.addEventListener("click", gotoQuiz);
 }
 
