@@ -1,5 +1,4 @@
 // Button Management Script by Timothy V
-console.log("start");
 // -- Initialize Variables --
 
 // HTML Elements

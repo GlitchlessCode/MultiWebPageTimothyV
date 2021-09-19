@@ -56,7 +56,7 @@ img:hover {
     width: 90%;
 }
 
-input{
+input {
     font-size: 24px;
 }
 
@@ -186,4 +186,22 @@ input{
 /* Small Captions */
 .caption {
     font-size: 12px;
+}
+
+.correct,
+.correctBox {
+    color: rgb(67, 189, 30);
+}
+
+.incorrect,
+.incorrectBox {
+    color: red;
+}
+
+.correctBox {
+    border: 2px solid yellowgreen;
+}
+
+.incorrectBox {
+    border: 2px solid red;
 }
