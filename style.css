@@ -8,7 +8,7 @@ html {
 
 body {
     margin: 0px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:'Franklin Gothic Light', 'Arial Narrow', Arial, sans-serif;
 }
 
 h1 {
@@ -20,19 +20,46 @@ h1 {
 
 p,
 h2 {
-    color: #ECFFFB;
+    color: #c92053;
 }
 
+h2 {
+    font-size: 32px;
+}
+
+p {
+    font-size: 24px;
+}
+
+/* Links */
 a {
-    color: turquoise;
+    color: rgb(52, 185, 172);
     text-decoration: none;
     transition: 250ms;
 }
 
 a:hover {
     cursor: pointer;
-    color: rgb(45, 167, 154);
+    color: rgb(42, 199, 94);
 }
+
+/* Images */
+img {
+    width: 85%;
+    margin: 10px auto;
+    box-shadow: 0px 0px 5px black;
+    border-radius: 10px;
+    transition: 350ms;
+}
+
+img:hover{
+    width: 90%;
+}
+
+input{
+    font-size: 22px;
+}
+
 
 /* ID Selectors */
 
@@ -40,7 +67,10 @@ a:hover {
 #titleBody {
     /* Size */
     margin: 100px auto;
-    width: 40%;
+    width: 60%;
+
+    display: flex;
+    align-items: center;
 
     /* Text */
     text-align: center;
@@ -49,13 +79,13 @@ a:hover {
 
 /* Class Selectors */
 
-.noMargin{
+.noMargin {
     margin: 0px;
 }
 
-.mainBody{
+.mainBody {
     /* Background color, shape, and position */
-    background: rgba(255, 255, 255, 0.950);
+    background: rgba(255, 255, 255, 0.850);
 
     margin: 100px auto;
     width: 80%;
@@ -70,7 +100,11 @@ a:hover {
 
 .topPanel {
     /* Background color shape, and position */
-    background: white fixed;
+    background: white;
+
+    position: fixed;
+    top: 0;
+    width: 100%;
 
     padding: 15px;
 
@@ -130,14 +164,26 @@ a:hover {
     cursor: default;
 }
 
-.titleContainer{
+/* Class for containers to center contents */
+.centerContainer {
     display: flex;
     justify-content: center;
 }
 
-.titleText{
+/* Title Text */
+.titleText {
     background: rgb(170, 170, 170);
     text-align: center;
     width: 80%;
     border-radius: 25px;
+    padding: 10px;
+}
+
+.white {
+    color: #ECFFFB;
+}
+
+/* Small Captions */
+.caption{
+    font-size: 12px;
 }
