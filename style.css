@@ -49,6 +49,25 @@ a:hover {
 
 /* Class Selectors */
 
+.noMargin{
+    margin: 0px;
+}
+
+.mainBody{
+    /* Background color, shape, and position */
+    background: rgba(255, 255, 255, 0.950);
+
+    margin: 100px auto;
+    width: 80%;
+    padding: 25px 50px;
+
+    border-radius: 25px;
+
+    box-shadow: 0px 0px 7px rgb(131, 131, 131);
+
+    /* Text */
+}
+
 .topPanel {
     /* Background color shape, and position */
     background: white fixed;
@@ -109,4 +128,16 @@ a:hover {
     background: black;
     opacity: 0.8;
     cursor: default;
+}
+
+.titleContainer{
+    display: flex;
+    justify-content: center;
+}
+
+.titleText{
+    background: rgb(170, 170, 170);
+    text-align: center;
+    width: 80%;
+    border-radius: 25px;
 }
